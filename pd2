@@ -12,7 +12,7 @@ ItemDisplay[ETH]: ETH %NAME%%CONTINUE%
 ItemDisplay[SOCKETS>0]: %NAME% %YELLOW%[%SOCKETS%]%CONTINUE%
 ItemDisplay[NMAG ED=15]: %NAME% %ORANGE%+15%ED%CONTINUE%
 ItemDisplay[NMAG (ED<15 AND ED>9)]: %NAME% %BLUE%+%ED%CONTINUE%
-ItemDisplay[QTY>1 (GEM OR RUNE)]: %QTY%x %NAME%%CONTINUE%
+ItemDisplay[QTY>1 (GEM>0 OR RUNE>0)]: %QTY%x %NAME%%CONTINUE%
 
 // Gold
 ItemDisplay[CLVL>69 GOLD<5000]:
@@ -258,11 +258,11 @@ ItemDisplay[RUNE>0]: %RUNENAME% [%RUNENUM%]
 ItemDisplay[CLVL>20 GEM=1]:
 ItemDisplay[CLVL>30 GEM=2]:
 ItemDisplay[CLVL>40 GEM=3]:
-ItemDisplay[gzv]: %ORANGE%Amethyst
-ItemDisplay[glw]: %ORANGE%Diamond
-ItemDisplay[glg]: %ORANGE%Emerald
-ItemDisplay[glr]: %ORANGE%Ruby
-ItemDisplay[glb]: %ORANGE%Sapphire
-ItemDisplay[gly]: %ORANGE%Topaz
-ItemDisplay[skl]: %ORANGE%Skull
+ItemDisplay[gzv OR gzvs]: %ORANGE%Amethyst
+ItemDisplay[glw OR glws]: %ORANGE%Diamond
+ItemDisplay[glg OR glgs]: %ORANGE%Emerald
+ItemDisplay[glr OR glrs]: %ORANGE%Ruby
+ItemDisplay[glb OR glbs]: %ORANGE%Sapphire
+ItemDisplay[gly OR glys]: %ORANGE%Topaz
+ItemDisplay[skl OR skls]: %ORANGE%Skull
 ItemDisplay[gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR ckz]: %ORANGE%%NAME%
